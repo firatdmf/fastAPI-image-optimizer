@@ -1,0 +1,6 @@
+app (before the colon) refers to the filename app.py.
+
+app (after the colon) refers to the variable app = FastAPI() inside the code.
+
+--reload tells the server to restart every time you save a change.
+uvicorn app:app --reload
